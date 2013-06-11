@@ -5299,6 +5299,9 @@ h3 {
 .jumbotron.masthead small {
   display: block;
 }
+.jumbotron.masthead p.full {
+  opacity: 1 !important;
+}
 .jumbotron:after {
   background: none !important;
 }
