@@ -50,7 +50,7 @@
       <a href="https://sellfy.com/p/d6dy" id="d6dy" class="sellfy-buy-button">buy</a><script type="text/javascript" src="https://sellfy.com/js/api_buttons.js"></script>
     </p>
     <small><a href="http://getbarley.com">What is Barley?</a></small>
-    <a class="vimeo" href="http://player.vimeo.com/video/68102122?title=0&amp;byline=0&amp;portrait=0">
+    <a class="vimeo" href="http://player.vimeo.com/video/68102122?title=0&amp;byline=0&amp;portrait=0&autoplay=1">
       <img src="assets/img/site/ss-home.png" alt="Formation">
     </a>
 
@@ -68,23 +68,38 @@
 
     <div class="row-fluid features">
       <div class="span3">
-        <img src="assets/img/site/ss-home-edit.jpg" alt="Edit your home page easily">
+        <a href="#home-edit" role="button" data-toggle="modal">
+          <img src="assets/img/site/ss-home-edit.jpg" alt="Edit your home page easily">
+        </a>
+        <img id="home-edit" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" src="assets/img/site/ss-home-edit.jpg" alt="Edit your home page easily">
+        
         <h3>Landing Page</h3>
         <p>Landing page with hero banner and features sections.  Everything is editable with Barley's in-line editor.</p>
       </div>
       <div class="span3">
-        <img src="assets/img/site/ss-about-team.jpg" alt="About page with team section">
+        <a href="#about" role="button" data-toggle="modal">
+          <img src="assets/img/site/ss-about-team.jpg" alt="About page with team section">
+        </a>
+        <img id="about" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" src="assets/img/site/ss-about-team.jpg" alt="About page with team section">
         <h3>About Page</h3>
         <p>Customizable page to feature the awesome bits of your company. Including your team section that makes it super easy to change employee pictures and bio information.</p>
       </div>
       <div class="span3">
-        <img src="assets/img/site/ss-contact.jpg" alt="Contact form">
+        <a href="#contact" role="button" data-toggle="modal">
+          <img src="assets/img/site/ss-contact.jpg" alt="Contact form">
+        </a>
+        <img id="contact" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" src="assets/img/site/ss-contact.jpg" alt="Contact form">
+
         <h3>Contact Page</h3>
         <p>This page is already set up with Barley's contact form. All you'll need to do is change the settings.</p>
         <p>Documentation for Barley forms can be found on the <a href="http://getbarley.com/docs/templates">Creating Templates</a> page.</p>
       </div>
       <div class="span3">
-        <img src="assets/img/site/ss-blog.jpg" alt="Clean Simple blog">
+        <a href="#blog" role="button" data-toggle="modal">
+          <img src="assets/img/site/ss-blog.jpg" alt="Clean Simple blog">
+        </a>
+        <img id="blog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" src="assets/img/site/ss-blog.jpg" alt="Clean Simple blog">
+        
         <h3>Beautiful Blog</h3>
         <p>Clean blog with author section and custom formatting.  The blog makes it really easy to set up differnt author profiles.  All formatting has been set up so no matter what you add to your blog it will look great!</p>
       </div>
