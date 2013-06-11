@@ -50,7 +50,10 @@
       <a href="https://sellfy.com/p/d6dy" id="d6dy" class="sellfy-buy-button">buy</a><script type="text/javascript" src="https://sellfy.com/js/api_buttons.js"></script>
     </p>
     <small><a href="http://getbarley.com">What is Barley?</a></small>
-    <img src="assets/img/site/ss-home.png" alt="Formation">
+    <a class="vimeo" href="http://player.vimeo.com/video/68102122?title=0&amp;byline=0&amp;portrait=0">
+      <img src="assets/img/site/ss-home.png" alt="Formation">
+    </a>
+
   </div>
 </div>
 
@@ -112,7 +115,7 @@
     </div>
     <div class="span7">
       <img src="assets/img/site/bootstrap.jpg" alt="Bootstrap" class="pull-left span3">
-      <img src="assets/img/site/less.jpg" alt="Less CSS" class="pull-left span2">
+      <img src="assets/img/site/less-logo-large.png" alt="Less CSS" class="pull-left span2">
     </div>
   </div>
 </div>
@@ -163,6 +166,26 @@
     <script src="assets/js/google-code-prettify/prettify.js"></script>
 
     <script src="assets/js/application.js"></script>
+
+    <!-- Fancy Box -->
+    <script type="text/javascript" src="http://fancyapps.com/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox-media.js"></script>
+    <link rel="stylesheet" href="http://fancyapps.com/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".fancybox").fancybox();
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+       $(".vimeo").fancybox({
+        width: 800,
+        height: 450,
+        type: 'iframe',
+        fitToView : false
+       });
+      });
+      </script>
 
 
     <!-- Analytics
