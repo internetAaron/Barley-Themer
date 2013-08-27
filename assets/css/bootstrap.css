@@ -5450,9 +5450,9 @@ span.number {
   border: 3px solid #FFFFFF;
   width: 89px;
   height: 20px;
-  -webkit-border-radius: 42%;
-  -moz-border-radius: 25%;
-  border-radius: 74%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
   color: #FFFFFF;
   -webkit-box-shadow: 1px 1px 3px 0px rgba(67, 67, 67, 0.23);
   box-shadow: 1px 1px 3px 0px rgba(67, 67, 67, 0.23);
