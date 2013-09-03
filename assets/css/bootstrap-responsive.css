@@ -780,6 +780,9 @@
   .uneditable-input.span1 {
     width: 28px;
   }
+  .logo {
+    height: 56px;
+  }
 }
 @media (max-width: 767px) {
   body {
@@ -877,6 +880,30 @@
   .modal.fade.in {
     top: 20px;
   }
+  /*  Custom */
+  body {
+    padding-top: 131px !important;
+  }
+  body .top-bar {
+    background: #4A616F;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 111px;
+    top: 0;
+    text-align: center;
+  }
+  body ul.pull-right {
+    float: none !important;
+    display: table;
+    margin: 0 auto;
+  }
+  body ul.pull-right li {
+    margin-top: 0;
+  }
 }
 @media (max-width: 480px) {
   .nav-collapse {
@@ -927,6 +954,30 @@
   }
   .carousel-caption {
     position: static;
+  }
+  /*  Custom */
+  body {
+    padding-top: 131px !important;
+  }
+  body .top-bar {
+    background: #4A616F;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 111px;
+    top: 0;
+    text-align: center;
+  }
+  body ul.pull-right {
+    float: none !important;
+    display: table;
+    margin: 0 auto;
+  }
+  body ul.pull-right li {
+    margin-top: 0;
   }
 }
 @media (max-width: 979px) {
